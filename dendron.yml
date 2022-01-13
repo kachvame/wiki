@@ -13,8 +13,8 @@ site:
     - root
   siteRootDir: docs
   usePrettyRefs: true
-  title: Dendron
-  description: Personal knowledge space
+  title: kachvame
+  description: kachvame's wiki
   siteLastModified: true
   gh_edit_branch: main
   duplicateNoteBehavior:
