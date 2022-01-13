@@ -16,7 +16,7 @@ site:
   usePrettyRefs: true
   title: kachvame
   description: kachvame's wiki
-  siteLastModified: true
+  siteLastModified: false
   gh_edit_branch: main
   duplicateNoteBehavior:
     action: useVault
