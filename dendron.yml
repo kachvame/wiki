@@ -10,7 +10,8 @@ site:
   assetsPrefix: "/wiki"
   copyAssets: true
   siteHierarchies:
-    - root
+    - home
+    - wiki
   siteRootDir: docs
   usePrettyRefs: true
   title: kachvame
