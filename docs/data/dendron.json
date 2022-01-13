@@ -8,6 +8,8 @@
     "enablePreviewV2": true
   },
   "site": {
+    "siteUrl": "https://kachvame.github.io",
+    "assetsPrefix": "/wiki",
     "copyAssets": true,
     "siteHierarchies": [
       "root"
@@ -24,7 +26,6 @@
         "vault"
       ]
     },
-    "siteUrl": "localhost:3000",
     "usePrettyLinks": true,
     "siteNotesDir": "notes",
     "siteFaviconPath": "favicon.ico",
