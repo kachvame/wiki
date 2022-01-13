@@ -9,7 +9,6 @@
     "@dendronhq/dendron-cli": "^0.77.0"
   },
   "scripts": {
-    "init": "dendron publish init",
-    "build": "dendron publish export --target github"
+    "preview": "dendron publish dev"
   }
 }
