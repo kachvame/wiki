@@ -1,8 +1,8 @@
 ---
 id: guidelines-mfdd
 title: MFDD
-excerpt: 'Malak Fix Driven Development'
-updated: 1642142199911
+excerpt: Malak Fix Driven Development
+updated: 1642148430838
 created: 1642102798007
 ---
 
