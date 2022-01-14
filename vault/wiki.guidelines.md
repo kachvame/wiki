@@ -1,5 +1,5 @@
 ---
-id: ywLICM2XT4VcZyeAdGz37
+id: guidelines
 title: Menteca Guidelines
 desc: ''
 updated: 1642107294308

@@ -1,5 +1,5 @@
 ---
-id: UIJAiWxCG6dbKKVFFgM9f
+id: guidelines-vgtdd
 title: VGTDD
 excerpt: Vidqh Go Tam Driven Development
 updated: 1642141944758
