@@ -1,5 +1,5 @@
 ---
-id: kachvame
+id: guidelines-kachvame
 title: Deploying in 15m
 excerpt: Deploying in 15m
 updated: 1642150606468
