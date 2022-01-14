@@ -1,5 +1,5 @@
 ---
-id: aleksandrovi-dynasty
+id: lore-the-aleksandrovi-dynasty
 title: The Aleksandrovi Dynasty
 excerpt: The Aleksandrovi Dynasty
 updated: 1642150606468
