@@ -6,7 +6,7 @@ useKatex: true
 dev:
   enablePreviewV2: true
 site:
-  siteUrl: "https://kachvame.github.io"
+  siteUrl: "https://wiki.kachva.me"
   assetsPrefix: "/wiki"
   copyAssets: true
   siteHierarchies:
