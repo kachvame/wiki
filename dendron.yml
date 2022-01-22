@@ -7,7 +7,6 @@ dev:
   enablePreviewV2: true
 site:
   siteUrl: "https://wiki.kachva.me"
-  assetsPrefix: "/wiki"
   copyAssets: true
   siteHierarchies:
     - home
