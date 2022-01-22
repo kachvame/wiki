@@ -1,8 +1,8 @@
 ---
 id: lore-the-new-way
-title: The "new way"
+title: The "New Way"
 excerpt: The legend of the new Menteca workflow
-updated: 1642873779125
+updated: 1642875592542
 created: 1642872621418
 ---
 
