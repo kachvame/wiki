@@ -1,90 +1,106 @@
-version: 4
-useFMTitle: true
-useNoteTitleForLink: true
-mermaid: true
-useKatex: true
+version: 5
 dev:
-  enablePreviewV2: true
-site:
-  siteUrl: "https://wiki.kachva.me"
-  copyAssets: true
-  siteHierarchies:
-    - home
-    - wiki
-  siteRootDir: docs
-  usePrettyRefs: true
-  title: kachvame
-  description: kachvame's wiki
-  siteLastModified: false
-  gh_edit_branch: main
-  duplicateNoteBehavior:
-    action: useVault
-    payload:
-      - vault
+    enablePreviewV2: true
 commands:
-  lookup:
-    note:
-      selectionMode: extract
-      confirmVaultOnCreate: false
-      leaveTrace: false
-      bubbleUpCreateNew: true
-      fuzzThreshold: 0.2
-  randomNote: {}
-  insertNote:
-    initialValue: templates
-  insertNoteLink:
-    aliasMode: none
-    enableMultiSelect: false
-  insertNoteIndex:
-    enableMarker: false
+    lookup:
+        note:
+            selectionMode: extract
+            confirmVaultOnCreate: false
+            leaveTrace: false
+            bubbleUpCreateNew: true
+            fuzzThreshold: 0.2
+            vaultSelectionModeOnCreate: smart
+    randomNote: {}
+    insertNote:
+        initialValue: templates
+    insertNoteLink:
+        aliasMode: none
+        enableMultiSelect: false
+    insertNoteIndex:
+        enableMarker: false
+    copyNoteLink: {}
 workspace:
-  vaults:
-    - fsPath: vault
-  journal:
-    dailyDomain: daily
-    name: journal
-    dateFormat: y.MM.dd
-    addBehavior: childOfDomain
-  scratch:
-    name: scratch
-    dateFormat: y.MM.dd.HHmmss
-    addBehavior: asOwnDomain
-  task:
-    name: ""
-    dateFormat: ""
-    addBehavior: childOfCurrent
-    statusSymbols:
-      "": " "
-      wip: w
-      done: x
-      assigned: a
-      moved: m
-      blocked: b
-      delegated: l
-      dropped: d
-      pending: "y"
-    prioritySymbols:
-      H: high
-      M: medium
-      L: low
-    todoIntegration: false
-    createTaskSelectionType: selection2link
-  graph:
-    zoomSpeed: 1
-  enableAutoCreateOnDefinition: false
-  enableXVaultWikiLink: false
-  enableRemoteVaultInit: true
-  enableUserTags: true
-  enableHashTags: true
-  workspaceVaultSyncMode: noCommit
-  enableAutoFoldFrontmatter: false
-  enableEditorDecorations: true
-  maxPreviewsCached: 10
-  maxNoteLength: 204800
+    vaults:
+        -
+            fsPath: vault
+    journal:
+        dailyDomain: daily
+        name: journal
+        dateFormat: y.MM.dd
+        addBehavior: childOfDomain
+    scratch:
+        name: scratch
+        dateFormat: y.MM.dd.HHmmss
+        addBehavior: asOwnDomain
+    task:
+        name: ''
+        dateFormat: ''
+        addBehavior: childOfCurrent
+        statusSymbols:
+            '': ' '
+            wip: w
+            done: x
+            assigned: a
+            moved: m
+            blocked: b
+            delegated: l
+            dropped: d
+            pending: 'y'
+        prioritySymbols:
+            H: high
+            M: medium
+            L: low
+        todoIntegration: false
+        createTaskSelectionType: selection2link
+    graph:
+        zoomSpeed: 1
+    enableAutoCreateOnDefinition: false
+    enableXVaultWikiLink: false
+    enableRemoteVaultInit: true
+    enableUserTags: true
+    enableHashTags: true
+    workspaceVaultSyncMode: noCommit
+    enableAutoFoldFrontmatter: false
+    enableEditorDecorations: true
+    maxPreviewsCached: 10
+    maxNoteLength: 204800
+    dendronVersion: 0.84.0
 preview:
-  enableFMTitle: true
-  enableNoteTitleForLink: true
-  enableMermaid: true
-  enablePrettyRefs: true
-  enableKatex: true
-  automaticallyShowPreview: false
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
+    automaticallyShowPreview: false
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+publishing:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
+    copyAssets: true
+    siteHierarchies:
+        - home
+        - wiki
+    enableSiteLastModified: false
+    siteRootDir: docs
+    siteUrl: 'https://wiki.kachva.me'
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+    enableRandomlyColoredTags: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault
+    writeStubs: false
+    seo:
+        title: kachvame
+        description: kachvame's wiki
+    github:
+        enableEditLink: true
+        editLinkText: Edit this page on GitHub
+        editBranch: main
+        editViewMode: tree
+    enablePrettyLinks: true
