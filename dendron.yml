@@ -65,6 +65,7 @@ workspace:
     maxPreviewsCached: 10
     maxNoteLength: 204800
     dendronVersion: 0.84.0
+    enableFullHierarchyNoteTitle: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -86,7 +87,7 @@ publishing:
         - wiki
     enableSiteLastModified: false
     siteRootDir: docs
-    siteUrl: 'https://wiki.kachva.me'
+    siteUrl: https://wiki.kachva.me
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true

@@ -6,3 +6,4 @@ seeds
 .next
 
 .dendron.cache.*
+.backup
