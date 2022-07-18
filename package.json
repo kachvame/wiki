@@ -6,7 +6,7 @@
   "author": "invakid404 <invakid404@riseup.net>",
   "license": "MIT",
   "dependencies": {
-    "@dendronhq/dendron-cli": "^0.102.1"
+    "@dendronhq/dendron-cli": "^0.103.0"
   },
   "scripts": {
     "preview": "dendron publish dev"
